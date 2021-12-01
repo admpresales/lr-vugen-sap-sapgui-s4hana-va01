@@ -1,0 +1,22 @@
+[ObjectProperties]
+type_as_string=GuiCTextField
+component_name=VBAP-VRKME
+Text=PC
+Tooltip=
+Top=65
+Left=696
+Height=24
+Width=59
+MaxLength=3
+Numerical=False
+ControlInsideTable=YES
+TableID=usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG
+TableColumnTitle=Un
+TableTitleIsUnique=1
+TableCellDescription=(0, 'Un')
+TableColumnNum=4
+TableRowNum=0
+[ParentWindowData]
+ParentWindowTitle=Create Standard Order: Overview
+Snapshot=snapshot1041
+NoHighlightSnapshot=snapshot1035

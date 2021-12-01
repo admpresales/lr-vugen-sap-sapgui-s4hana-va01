@@ -1,0 +1,16 @@
+[ObjectProperties]
+type_as_string=Calendar
+component_name=shell
+Text=SAP.CalendarControl.1
+Tooltip=
+Top=0
+Left=0
+Height=380
+Width=409
+SubType=Calendar
+FirstVisibleDate=20211122
+CalendarFormattedDate=12/1/2021
+[ParentWindowData]
+ParentWindowTitle=Calendar
+Snapshot=snapshot1032
+NoHighlightSnapshot=snapshot1031

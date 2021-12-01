@@ -1,0 +1,16 @@
+[ObjectProperties]
+type_as_string=GuiCTextField
+component_name=KUAGV-KUNNR
+Text=EWM17-CU02
+Tooltip=
+Top=3
+Left=170
+Height=25
+Width=109
+MaxLength=10
+Numerical=False
+LabelText=Sold-To Party
+[ParentWindowData]
+ParentWindowTitle=Create Standard Order: Overview
+Snapshot=snapshot1025
+NoHighlightSnapshot=snapshot1023

@@ -1,0 +1,520 @@
+------------------------------------------------------------------------------------------
+| LoadRunner Recording Log File                                    |
+| Date Generated : Wed Dec  1 17:43:10 2021                                              |
+------------------------------------------------------------------------------------------
+
+[Op#:     1]------------------------------------------------------------------------------
+Record Section      : vuser_init
+
+[Op#:     2]------------------------------------------------------------------------------
+Start Record        : 1
+
+[Op#:     3]------------------------------------------------------------------------------
+Start Transaction   : 001_SAP_Logon
+
+[Op#:     4]------------------------------------------------------------------------------
+Api Event (0)       : Id=SapGui Proc=0ad4:042c  Start=2345281  End=2345281  Duration=0 msec
+Operation Name      : sapgui_open_connection
+Argument#  1  IN  : [connection_description] = "S/4HANA 2020 FPS01"
+Argument#  2  IN  : [connection_id] = "con[0]"
+Argument#  3  IN  : [connection_string] = "   /SAP_CODEPAGE=1100   /FULLMENU SNC_PARTNERNAME="""" SNC_QOP=-1 /H/172.16.239.201/S/3200 /UPDOWNLOAD_CP=2"
+Return Value      : (void)
+
+[Op#:     5]------------------------------------------------------------------------------
+Api Event (1)       : Id=SapGui Proc=0ad4:1740  Start=2345343  End=2345343  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]"
+Argument#  2  IN  : [method_name] = "resizeWorkingPane"
+Argument#  3  IN  : [psaParams] = Array[0:3]{ "89" , "18" , "False" }
+Argument#  4  IN  : [type_as_number] = 21
+Argument#  5  IN  : [info_file_key] = "sapgui104"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiMainWindow" , "component_name" , "wnd[0]" , "Text" , "SAP" , "Tooltip" , "" , "Top" , "22" , "Left" , "36" , "Height" , "550" , "Width" , "750" , "ParentWindowTitle" , "SAP" , "WorkPaneWidth" , "88" , "WorkPaneHeight" , "18" })
+Return Value      : (void)
+
+[Op#:     6]------------------------------------------------------------------------------
+Api Event (2)       : Id=SapGui Proc=0ad4:042c  Start=2356859  End=2356859  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/txtRSYST-BNAME"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "S4H_SD_DEM"
+Argument#  4  IN  : [type_as_number] = 31
+Argument#  5  IN  : [info_file_key] = "sapgui105"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiTextField" , "component_name" , "RSYST-BNAME" , "Text" , "S4H_SD_DEM" , "Tooltip" , "" , "Top" , "84" , "Left" , "204" , "Height" , "25" , "Width" , "129" , "MaxLength" , "12" , "Numerical" , "False" , "ParentWindowTitle" , "SAP" , "LabelText" , "*User" })
+Return Value      : (void)
+
+[Op#:     7]------------------------------------------------------------------------------
+Api Event (3)       : Id=SapGui Proc=0ad4:042c  Start=2356875  End=2356875  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "********"
+Argument#  4  IN  : [type_as_number] = 33
+Argument#  5  IN  : [info_file_key] = "sapgui106"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiPasswordField" , "component_name" , "RSYST-BCODE" , "Text" , "" , "Tooltip" , "" , "Top" , "116" , "Left" , "204" , "Height" , "25" , "Width" , "129" , "MaxLength" , "40" , "Numerical" , "False" , "ParentWindowTitle" , "SAP" , "LabelText" , "*Password" })
+Return Value      : (void)
+
+[Op#:     8]------------------------------------------------------------------------------
+Api Event (4)       : Id=SapGui Proc=0ad4:042c  Start=2356890  End=2356890  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+Argument#  2  IN  : [method_name] = "setFocus"
+Argument#  3  IN  : [psaParams] = Array{  }
+Argument#  4  IN  : [type_as_number] = 33
+Argument#  5  IN  : [info_file_key] = "sapgui107"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiPasswordField" , "component_name" , "RSYST-BCODE" , "Text" , "" , "Tooltip" , "" , "Top" , "116" , "Left" , "204" , "Height" , "25" , "Width" , "129" , "MaxLength" , "40" , "Numerical" , "False" , "ParentWindowTitle" , "SAP" , "LabelText" , "*Password" })
+Return Value      : (void)
+
+[Op#:     9]------------------------------------------------------------------------------
+Api Event (5)       : Id=SapGui Proc=0ad4:042c  Start=2356906  End=2356906  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/pwdRSYST-BCODE"
+Argument#  2  IN  : [prop_name] = "caretPosition"
+Argument#  3  IN  : [param] = "8"
+Argument#  4  IN  : [type_as_number] = 33
+Argument#  5  IN  : [info_file_key] = "sapgui108"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiPasswordField" , "component_name" , "RSYST-BCODE" , "Text" , "" , "Tooltip" , "" , "Top" , "116" , "Left" , "204" , "Height" , "25" , "Width" , "129" , "MaxLength" , "40" , "Numerical" , "False" , "ParentWindowTitle" , "SAP" , "LabelText" , "*Password" })
+Return Value      : (void)
+
+[Op#:    10]------------------------------------------------------------------------------
+Api Event (6)       : Id=SapGui Proc=0ad4:042c  Start=2356921  End=2356921  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]"
+Argument#  2  IN  : [method_name] = "sendVKey"
+Argument#  3  IN  : [psaParams] = Array[0:1]{ "0" }
+Argument#  4  IN  : [type_as_number] = 21
+Argument#  5  IN  : [info_file_key] = "sapgui109"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiMainWindow" , "component_name" , "wnd[0]" , "Text" , "SAP" , "Tooltip" , "" , "Top" , "22" , "Left" , "36" , "Height" , "550" , "Width" , "750" , "ParentWindowTitle" , "SAP" , "WorkPaneWidth" , "88" , "WorkPaneHeight" , "18" })
+Return Value      : (void)
+
+[Op#:    11]------------------------------------------------------------------------------
+Api Event (7)       : Id=SapGui Proc=0ad4:042c  Start=2358921  End=2358921  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 1718
+Argument#  3  IN  : [interpretation_time] = 126
+Return Value      : (void)
+
+[Op#:    12]------------------------------------------------------------------------------
+Api Event (8)       : Id=SapGui Proc=0ad4:042c  Start=2357093  End=2358937  Duration=1844 msec
+Operation Name      : sapgui_logon
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [user_name] = "S4H_SD_DEM"
+Argument#  3  IN  : [password] = "*****"
+Argument#  4  IN  : [client] = "100"
+Argument#  5  IN  : [language] = "EN"
+Argument#  6  IN  : [info_file_key] = "sapgui1012"
+Argument#  7  IN  : [additional_info_map] = vrnt(Array[0:0][0:2]{  })
+Return Value      : (void)
+
+[Op#:    13]------------------------------------------------------------------------------
+End Transaction     : 001_SAP_Logon
+
+[Op#:    14]------------------------------------------------------------------------------
+Record Section      : Action
+
+[Op#:    15]------------------------------------------------------------------------------
+Start Transaction   : 002_Nav_to_va01
+
+[Op#:    16]------------------------------------------------------------------------------
+Api Event (9)       : Id=SapGui Proc=0ad4:042c  Start=2404796  End=2404796  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/tbar[0]/okcd"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "/nva01"
+Argument#  4  IN  : [type_as_number] = 35
+Argument#  5  IN  : [info_file_key] = "sapgui1013"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:8][0:2]{ "type_as_string" , "GuiOkCodeField" , "component_name" , "okcd" , "Text" , "" , "Top" , "59" , "Left" , "24" , "Height" , "24" , "Width" , "156" , "ParentWindowTitle" , "SAP Easy Access" })
+Return Value      : (void)
+
+[Op#:    17]------------------------------------------------------------------------------
+Api Event (10)      : Id=SapGui Proc=0ad4:042c  Start=2404812  End=2404812  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]"
+Argument#  2  IN  : [method_name] = "sendVKey"
+Argument#  3  IN  : [psaParams] = Array[0:1]{ "0" }
+Argument#  4  IN  : [type_as_number] = 21
+Argument#  5  IN  : [info_file_key] = "sapgui1014"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiMainWindow" , "component_name" , "wnd[0]" , "Text" , "SAP Easy Access" , "Tooltip" , "" , "Top" , "22" , "Left" , "36" , "Height" , "550" , "Width" , "750" , "ParentWindowTitle" , "SAP Easy Access" , "WorkPaneWidth" , "88" , "WorkPaneHeight" , "18" })
+Return Value      : (void)
+
+[Op#:    18]------------------------------------------------------------------------------
+Api Event (11)      : Id=SapGui Proc=0ad4:042c  Start=2406031  End=2406031  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 1032
+Argument#  3  IN  : [interpretation_time] = 78
+Return Value      : (void)
+
+[Op#:    19]------------------------------------------------------------------------------
+End Transaction     : 002_Nav_to_va01
+
+[Op#:    20]------------------------------------------------------------------------------
+Start Transaction   : 003_va01_screen_1
+
+[Op#:    21]------------------------------------------------------------------------------
+Api Event (12)      : Id=SapGui Proc=0ad4:042c  Start=2439093  End=2440203  Duration=1110 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/ctxtVBAK-AUART"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "OR"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1017"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAK-AUART" , "Text" , "OR" , "Tooltip" , "" , "Top" , "84" , "Left" , "224" , "Height" , "25" , "Width" , "49" , "MaxLength" , "4" , "Numerical" , "False" , "ParentWindowTitle" , "Create Sales Documents" })
+Return Value      : (void)
+
+[Op#:    22]------------------------------------------------------------------------------
+Api Event (13)      : Id=SapGui Proc=0ad4:042c  Start=2440218  End=2440218  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/ctxtVBAK-VTWEG"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "10"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1018"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAK-VTWEG" , "Text" , "10" , "Tooltip" , "" , "Top" , "212" , "Left" , "224" , "Height" , "25" , "Width" , "29" , "MaxLength" , "2" , "Numerical" , "False" , "ParentWindowTitle" , "Create Sales Documents" , "LabelText" , "Distribution Channel" })
+Return Value      : (void)
+
+[Op#:    23]------------------------------------------------------------------------------
+Api Event (14)      : Id=SapGui Proc=0ad4:042c  Start=2440218  End=2440218  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/ctxtVBAK-SPART"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "00"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1019"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAK-SPART" , "Text" , "00" , "Tooltip" , "" , "Top" , "244" , "Left" , "224" , "Height" , "25" , "Width" , "53" , "MaxLength" , "2" , "Numerical" , "False" , "ParentWindowTitle" , "Create Sales Documents" , "LabelText" , "Division" })
+Return Value      : (void)
+
+[Op#:    24]------------------------------------------------------------------------------
+Api Event (15)      : Id=SapGui Proc=0ad4:042c  Start=2440234  End=2440234  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/ctxtVBAK-SPART"
+Argument#  2  IN  : [method_name] = "setFocus"
+Argument#  3  IN  : [psaParams] = Array{  }
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1020"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAK-SPART" , "Text" , "00" , "Tooltip" , "" , "Top" , "244" , "Left" , "224" , "Height" , "25" , "Width" , "53" , "MaxLength" , "2" , "Numerical" , "False" , "ParentWindowTitle" , "Create Sales Documents" , "LabelText" , "Division" })
+Return Value      : (void)
+
+[Op#:    25]------------------------------------------------------------------------------
+Api Event (16)      : Id=SapGui Proc=0ad4:042c  Start=2440250  End=2440250  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/ctxtVBAK-SPART"
+Argument#  2  IN  : [prop_name] = "caretPosition"
+Argument#  3  IN  : [param] = "2"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1021"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAK-SPART" , "Text" , "00" , "Tooltip" , "" , "Top" , "244" , "Left" , "224" , "Height" , "25" , "Width" , "53" , "MaxLength" , "2" , "Numerical" , "False" , "ParentWindowTitle" , "Create Sales Documents" , "LabelText" , "Division" })
+Return Value      : (void)
+
+[Op#:    26]------------------------------------------------------------------------------
+Api Event (17)      : Id=SapGui Proc=0ad4:042c  Start=2440265  End=2440265  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]"
+Argument#  2  IN  : [method_name] = "sendVKey"
+Argument#  3  IN  : [psaParams] = Array[0:1]{ "0" }
+Argument#  4  IN  : [type_as_number] = 21
+Argument#  5  IN  : [info_file_key] = "sapgui1022"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiMainWindow" , "component_name" , "wnd[0]" , "Text" , "Create Sales Documents" , "Tooltip" , "" , "Top" , "22" , "Left" , "36" , "Height" , "550" , "Width" , "750" , "ParentWindowTitle" , "Create Sales Documents" , "WorkPaneWidth" , "88" , "WorkPaneHeight" , "18" })
+Return Value      : (void)
+
+[Op#:    27]------------------------------------------------------------------------------
+Api Event (18)      : Id=SapGui Proc=0ad4:042c  Start=2441359  End=2441359  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 266
+Argument#  3  IN  : [interpretation_time] = 125
+Return Value      : (void)
+
+[Op#:    28]------------------------------------------------------------------------------
+End Transaction     : 003_va01_screen_1
+
+[Op#:    29]------------------------------------------------------------------------------
+Start Transaction   : 004_va01_create_order
+
+[Op#:    30]------------------------------------------------------------------------------
+Api Event (19)      : Id=SapGui Proc=0ad4:252c  Start=2487421  End=2487812  Duration=391 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/txtVBKD-BSTKD"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "450000019998"
+Argument#  4  IN  : [type_as_number] = 31
+Argument#  5  IN  : [info_file_key] = "sapgui1025"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiTextField" , "component_name" , "VBKD-BSTKD" , "Text" , "450000019998" , "Tooltip" , "" , "Top" , "99" , "Left" , "170" , "Height" , "25" , "Width" , "229" , "MaxLength" , "35" , "Numerical" , "False" , "ParentWindowTitle" , "Create Standard Order: Overview" , "LabelText" , "Cust. Reference" })
+Return Value      : (void)
+
+[Op#:    31]------------------------------------------------------------------------------
+Api Event (20)      : Id=SapGui Proc=0ad4:252c  Start=2487828  End=2487828  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/subPART-SUB:SAPMV45A:4701/ctxtKUAGV-KUNNR"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "EWM17-CU02"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1026"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "KUAGV-KUNNR" , "Text" , "EWM17-CU02" , "Tooltip" , "" , "Top" , "3" , "Left" , "170" , "Height" , "25" , "Width" , "109" , "MaxLength" , "10" , "Numerical" , "False" , "ParentWindowTitle" , "Create Standard Order: Overview" , "LabelText" , "Sold-To Party" })
+Return Value      : (void)
+
+[Op#:    32]------------------------------------------------------------------------------
+Api Event (21)      : Id=SapGui Proc=0ad4:252c  Start=2487843  End=2487843  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/subPART-SUB:SAPMV45A:4701/ctxtKUWEV-KUNNR"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "EWM17-CU02"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1027"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "KUWEV-KUNNR" , "Text" , "EWM17-CU02" , "Tooltip" , "" , "Top" , "35" , "Left" , "170" , "Height" , "25" , "Width" , "109" , "MaxLength" , "10" , "Numerical" , "False" , "ParentWindowTitle" , "Create Standard Order: Overview" , "LabelText" , "Ship-To Party" })
+Return Value      : (void)
+
+[Op#:    33]------------------------------------------------------------------------------
+Api Event (22)      : Id=SapGui Proc=0ad4:252c  Start=2487859  End=2487859  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/ctxtVBKD-BSTDK"
+Argument#  2  IN  : [method_name] = "setFocus"
+Argument#  3  IN  : [psaParams] = Array{  }
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1028"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBKD-BSTDK" , "Text" , "" , "Tooltip" , "" , "Top" , "99" , "Left" , "560" , "Height" , "25" , "Width" , "133" , "MaxLength" , "10" , "Numerical" , "True" , "ParentWindowTitle" , "Create Standard Order: Overview" , "LabelText" , "Cust. Ref. Date" })
+Return Value      : (void)
+
+[Op#:    34]------------------------------------------------------------------------------
+Api Event (23)      : Id=SapGui Proc=0ad4:252c  Start=2487875  End=2487875  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/ctxtVBKD-BSTDK"
+Argument#  2  IN  : [prop_name] = "caretPosition"
+Argument#  3  IN  : [param] = "0"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1029"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBKD-BSTDK" , "Text" , "" , "Tooltip" , "" , "Top" , "99" , "Left" , "560" , "Height" , "25" , "Width" , "133" , "MaxLength" , "10" , "Numerical" , "True" , "ParentWindowTitle" , "Create Standard Order: Overview" , "LabelText" , "Cust. Ref. Date" })
+Return Value      : (void)
+
+[Op#:    35]------------------------------------------------------------------------------
+Api Event (24)      : Id=SapGui Proc=0ad4:252c  Start=2487890  End=2487890  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]"
+Argument#  2  IN  : [method_name] = "sendVKey"
+Argument#  3  IN  : [psaParams] = Array[0:1]{ "4" }
+Argument#  4  IN  : [type_as_number] = 21
+Argument#  5  IN  : [info_file_key] = "sapgui1030"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiMainWindow" , "component_name" , "wnd[0]" , "Text" , "Create Standard Order: Overview" , "Tooltip" , "" , "Top" , "22" , "Left" , "36" , "Height" , "550" , "Width" , "750" , "ParentWindowTitle" , "Create Standard Order: Overview" , "WorkPaneWidth" , "88" , "WorkPaneHeight" , "18" })
+Return Value      : (void)
+
+[Op#:    36]------------------------------------------------------------------------------
+Api Event (25)      : Id=SapGui Proc=0ad4:252c  Start=2489000  End=2489000  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 484
+Argument#  3  IN  : [interpretation_time] = 235
+Return Value      : (void)
+
+[Op#:    37]------------------------------------------------------------------------------
+Api Event (26)      : Id=SapGui Proc=0ad4:252c  Start=2489687  End=2490406  Duration=719 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[1]/usr/cntlCONTAINER/shellcont/shell"
+Argument#  2  IN  : [prop_name] = "focusDate"
+Argument#  3  IN  : [param] = "20211201"
+Argument#  4  IN  : [type_as_number] = 1008
+Argument#  5  IN  : [info_file_key] = "sapgui1033"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "Calendar" , "component_name" , "shell" , "Text" , "SAP.CalendarControl.1" , "Tooltip" , "" , "Top" , "0" , "Left" , "0" , "Height" , "380" , "Width" , "409" , "SubType" , "Calendar" , "FirstVisibleDate" , "20211122" , "ParentWindowTitle" , "Calendar" , "CalendarFormattedDate" , "12/1/2021" })
+Return Value      : (void)
+
+[Op#:    38]------------------------------------------------------------------------------
+Api Event (27)      : Id=SapGui Proc=0ad4:252c  Start=2490406  End=2490406  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[1]/usr/cntlCONTAINER/shellcont/shell"
+Argument#  2  IN  : [prop_name] = "selectionInterval"
+Argument#  3  IN  : [param] = "20211201,20211201"
+Argument#  4  IN  : [type_as_number] = 1008
+Argument#  5  IN  : [info_file_key] = "sapgui1034"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:12][0:2]{ "type_as_string" , "Calendar" , "component_name" , "shell" , "Text" , "SAP.CalendarControl.1" , "Tooltip" , "" , "Top" , "0" , "Left" , "0" , "Height" , "380" , "Width" , "409" , "SubType" , "Calendar" , "FirstVisibleDate" , "20211122" , "ParentWindowTitle" , "Calendar" , "CalendarFormattedDate" , "12/1/2021-12/1/2021" })
+Return Value      : (void)
+
+[Op#:    39]------------------------------------------------------------------------------
+Api Event (28)      : Id=SapGui Proc=0ad4:252c  Start=2490984  End=2490984  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 343
+Argument#  3  IN  : [interpretation_time] = 110
+Return Value      : (void)
+
+[Op#:    40]------------------------------------------------------------------------------
+Api Event (29)      : Id=SapGui Proc=0ad4:252c  Start=2520281  End=2520734  Duration=453 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/txtVBAP-POSNR[0,0]"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "10"
+Argument#  4  IN  : [type_as_number] = 31
+Argument#  5  IN  : [info_file_key] = "sapgui1037"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:18][0:2]{ "type_as_string" , "GuiTextField" , "component_name" , "VBAP-POSNR" , "Text" , "10" , "Tooltip" , "" , "Top" , "65" , "Left" , "28" , "Height" , "24" , "Width" , "65" , "MaxLength" , "6" , "Numerical" , "True" , "ParentWindowTitle" , "Create Standard Order: Overview" , "ControlInsideTable" , "YES" , "TableID" , "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG" , "TableColumnTitle" , "Item" , "TableTitleIsUnique" , "1" , "TableCellDescription" , "(0, 'Item')" , "TableColumnNum" , "0" , "TableRowNum" , "0" })
+Return Value      : (void)
+
+[Op#:    41]------------------------------------------------------------------------------
+Api Event (30)      : Id=SapGui Proc=0ad4:252c  Start=2520750  End=2520750  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/ctxtRV45A-MABNR[1,0]"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "EWMS4-01"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1038"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:18][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "RV45A-MABNR" , "Text" , "EWMS4-01" , "Tooltip" , "" , "Top" , "65" , "Left" , "94" , "Height" , "24" , "Width" , "405" , "MaxLength" , "40" , "Numerical" , "False" , "ParentWindowTitle" , "Create Standard Order: Overview" , "ControlInsideTable" , "YES" , "TableID" , "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG" , "TableColumnTitle" , "Material" , "TableTitleIsUnique" , "1" , "TableCellDescription" , "(0, 'Material')" , "TableColumnNum" , "1" , "TableRowNum" , "0" })
+Return Value      : (void)
+
+[Op#:    42]------------------------------------------------------------------------------
+Api Event (31)      : Id=SapGui Proc=0ad4:252c  Start=2520765  End=2520765  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/txtRV45A-KWMENG[3,0]"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "1"
+Argument#  4  IN  : [type_as_number] = 31
+Argument#  5  IN  : [info_file_key] = "sapgui1039"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:18][0:2]{ "type_as_string" , "GuiTextField" , "component_name" , "RV45A-KWMENG" , "Text" , "1" , "Tooltip" , "" , "Top" , "65" , "Left" , "500" , "Height" , "24" , "Width" , "195" , "MaxLength" , "19" , "Numerical" , "True" , "ParentWindowTitle" , "Create Standard Order: Overview" , "ControlInsideTable" , "YES" , "TableID" , "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG" , "TableColumnTitle" , "Order Quantity" , "TableTitleIsUnique" , "1" , "TableCellDescription" , "(0, 'Order Quantity')" , "TableColumnNum" , "3" , "TableRowNum" , "0" })
+Return Value      : (void)
+
+[Op#:    43]------------------------------------------------------------------------------
+Api Event (32)      : Id=SapGui Proc=0ad4:252c  Start=2520781  End=2520781  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/ctxtVBAP-VRKME[4,0]"
+Argument#  2  IN  : [prop_name] = "text"
+Argument#  3  IN  : [param] = "PC"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1040"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:18][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAP-VRKME" , "Text" , "PC" , "Tooltip" , "" , "Top" , "65" , "Left" , "696" , "Height" , "24" , "Width" , "59" , "MaxLength" , "3" , "Numerical" , "False" , "ParentWindowTitle" , "Create Standard Order: Overview" , "ControlInsideTable" , "YES" , "TableID" , "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG" , "TableColumnTitle" , "Un" , "TableTitleIsUnique" , "1" , "TableCellDescription" , "(0, 'Un')" , "TableColumnNum" , "4" , "TableRowNum" , "0" })
+Return Value      : (void)
+
+[Op#:    44]------------------------------------------------------------------------------
+Api Event (33)      : Id=SapGui Proc=0ad4:252c  Start=2520796  End=2520796  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/ctxtVBAP-VRKME[4,0]"
+Argument#  2  IN  : [method_name] = "setFocus"
+Argument#  3  IN  : [psaParams] = Array{  }
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1041"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:18][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAP-VRKME" , "Text" , "PC" , "Tooltip" , "" , "Top" , "65" , "Left" , "696" , "Height" , "24" , "Width" , "59" , "MaxLength" , "3" , "Numerical" , "False" , "ParentWindowTitle" , "Create Standard Order: Overview" , "ControlInsideTable" , "YES" , "TableID" , "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG" , "TableColumnTitle" , "Un" , "TableTitleIsUnique" , "1" , "TableCellDescription" , "(0, 'Un')" , "TableColumnNum" , "4" , "TableRowNum" , "0" })
+Return Value      : (void)
+
+[Op#:    45]------------------------------------------------------------------------------
+Api Event (34)      : Id=SapGui Proc=0ad4:252c  Start=2520812  End=2520812  Duration=0 msec
+Operation Name      : sapgui_set_property
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG/ctxtVBAP-VRKME[4,0]"
+Argument#  2  IN  : [prop_name] = "caretPosition"
+Argument#  3  IN  : [param] = "2"
+Argument#  4  IN  : [type_as_number] = 32
+Argument#  5  IN  : [info_file_key] = "sapgui1042"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:18][0:2]{ "type_as_string" , "GuiCTextField" , "component_name" , "VBAP-VRKME" , "Text" , "PC" , "Tooltip" , "" , "Top" , "65" , "Left" , "696" , "Height" , "24" , "Width" , "59" , "MaxLength" , "3" , "Numerical" , "False" , "ParentWindowTitle" , "Create Standard Order: Overview" , "ControlInsideTable" , "YES" , "TableID" , "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG" , "TableColumnTitle" , "Un" , "TableTitleIsUnique" , "1" , "TableCellDescription" , "(0, 'Un')" , "TableColumnNum" , "4" , "TableRowNum" , "0" })
+Return Value      : (void)
+
+[Op#:    46]------------------------------------------------------------------------------
+Api Event (35)      : Id=SapGui Proc=0ad4:252c  Start=2520812  End=2520812  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]"
+Argument#  2  IN  : [method_name] = "sendVKey"
+Argument#  3  IN  : [psaParams] = Array[0:1]{ "0" }
+Argument#  4  IN  : [type_as_number] = 21
+Argument#  5  IN  : [info_file_key] = "sapgui1043"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiMainWindow" , "component_name" , "wnd[0]" , "Text" , "Create Standard Order: Overview" , "Tooltip" , "" , "Top" , "22" , "Left" , "36" , "Height" , "550" , "Width" , "750" , "ParentWindowTitle" , "Create Standard Order: Overview" , "WorkPaneWidth" , "88" , "WorkPaneHeight" , "18" })
+Return Value      : (void)
+
+[Op#:    47]------------------------------------------------------------------------------
+Api Event (36)      : Id=SapGui Proc=0ad4:252c  Start=2525859  End=2525875  Duration=16 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 4313
+Argument#  3  IN  : [interpretation_time] = 93
+Return Value      : (void)
+
+[Op#:    48]------------------------------------------------------------------------------
+Api Event (37)      : Id=SapGui Proc=0ad4:252c  Start=2529453  End=2533859  Duration=4406 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]"
+Argument#  2  IN  : [method_name] = "sendVKey"
+Argument#  3  IN  : [psaParams] = Array[0:1]{ "11" }
+Argument#  4  IN  : [type_as_number] = 21
+Argument#  5  IN  : [info_file_key] = "sapgui1046"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:11][0:2]{ "type_as_string" , "GuiMainWindow" , "component_name" , "wnd[0]" , "Text" , "Create Standard Order: Overview" , "Tooltip" , "" , "Top" , "22" , "Left" , "36" , "Height" , "550" , "Width" , "750" , "ParentWindowTitle" , "Create Standard Order: Overview" , "WorkPaneWidth" , "88" , "WorkPaneHeight" , "18" })
+Return Value      : (void)
+
+[Op#:    49]------------------------------------------------------------------------------
+Api Event (38)      : Id=SapGui Proc=0ad4:252c  Start=2535671  End=2535671  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 1047
+Argument#  3  IN  : [interpretation_time] = 78
+Return Value      : (void)
+
+[Op#:    50]------------------------------------------------------------------------------
+Api Event (39)      : Id=SapGui Proc=0ad4:252c  Start=2534562  End=2535687  Duration=1125 msec
+Operation Name      : sapgui_statusbar_text
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/sbar"
+Argument#  2  IN  : [statusbar_text] = "Standard Order 4101 has been saved."
+Argument#  3  IN  : [info_file_key] = "sapgui1049"
+Return Value      : (void)
+
+[Op#:    51]------------------------------------------------------------------------------
+End Transaction     : 004_va01_create_order
+
+[Op#:    52]------------------------------------------------------------------------------
+Comment             :  Get the order number, recording it was 4101 
+
+[Op#:    53]------------------------------------------------------------------------------
+Start Transaction   : 005_va01_exit_tcode
+
+[Op#:    54]------------------------------------------------------------------------------
+Api Event (40)      : Id=SapGui Proc=0ad4:252c  Start=2580937  End=2580937  Duration=0 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/tbar[0]/btn[15]"
+Argument#  2  IN  : [method_name] = "press"
+Argument#  3  IN  : [psaParams] = Array{  }
+Argument#  4  IN  : [type_as_number] = 40
+Argument#  5  IN  : [info_file_key] = "sapgui1050"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:9][0:2]{ "type_as_string" , "GuiButton" , "component_name" , "btn[15]" , "Text" , "Exit" , "Tooltip" , "Exit   (Shift+F3)" , "Top" , "11" , "Left" , "678" , "Height" , "26" , "Width" , "32" , "ParentWindowTitle" , "Create Standard Order: Overview" })
+Return Value      : (void)
+
+[Op#:    55]------------------------------------------------------------------------------
+Api Event (41)      : Id=SapGui Proc=0ad4:252c  Start=2581671  End=2581671  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 234
+Argument#  3  IN  : [interpretation_time] = 78
+Return Value      : (void)
+
+[Op#:    56]------------------------------------------------------------------------------
+Record Section      : vuser_end
+
+[Op#:    57]------------------------------------------------------------------------------
+Start Transaction   : 006_Logoff
+
+[Op#:    58]------------------------------------------------------------------------------
+Api Event (42)      : Id=SapGui Proc=0ad4:252c  Start=2596469  End=2596781  Duration=312 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[0]/tbar[0]/btn[15]"
+Argument#  2  IN  : [method_name] = "press"
+Argument#  3  IN  : [psaParams] = Array{  }
+Argument#  4  IN  : [type_as_number] = 40
+Argument#  5  IN  : [info_file_key] = "sapgui1053"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:9][0:2]{ "type_as_string" , "GuiButton" , "component_name" , "btn[15]" , "Text" , "Exit" , "Tooltip" , "Log Off   (Shift+F3)" , "Top" , "11" , "Left" , "678" , "Height" , "26" , "Width" , "32" , "ParentWindowTitle" , "SAP Easy Access" })
+Return Value      : (void)
+
+[Op#:    59]------------------------------------------------------------------------------
+Api Event (43)      : Id=SapGui Proc=0ad4:252c  Start=2597078  End=2597078  Duration=0 msec
+Operation Name      : sapgui_end_request
+Argument#  1  IN  : [session_id] = "/app/con[0]/ses[0]"
+Argument#  2  IN  : [response_time] = 94
+Argument#  3  IN  : [interpretation_time] = 78
+Return Value      : (void)
+
+[Op#:    60]------------------------------------------------------------------------------
+Api Event (44)      : Id=SapGui Proc=0ad4:252c  Start=2597984  End=2598156  Duration=172 msec
+Operation Name      : sapgui_call_method
+Argument#  1  IN  : [control_id] = "/app/con[0]/ses[0]/wnd[1]/usr/btnSPOP-OPTION1"
+Argument#  2  IN  : [method_name] = "press"
+Argument#  3  IN  : [psaParams] = Array{  }
+Argument#  4  IN  : [type_as_number] = 40
+Argument#  5  IN  : [info_file_key] = "sapgui1056"
+Argument#  6  IN  : [additional_info_map] = vrnt(Array[0:9][0:2]{ "type_as_string" , "GuiButton" , "component_name" , "SPOP-OPTION1" , "Text" , "Yes" , "Tooltip" , "" , "Top" , "115" , "Left" , "64" , "Height" , "27" , "Width" , "119" , "ParentWindowTitle" , "Log Off" })
+Return Value      : (void)
+
+[Op#:    61]------------------------------------------------------------------------------
+End Transaction     : 006_Logoff
+
+[Op#:    62]------------------------------------------------------------------------------
+End Record          : END
+
+------------------------------------------------------------------------------------------

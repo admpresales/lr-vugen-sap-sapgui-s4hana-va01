@@ -1,0 +1,15 @@
+[ObjectProperties]
+type_as_string=GuiCTextField
+component_name=VBAK-AUART
+Text=OR
+Tooltip=
+Top=84
+Left=224
+Height=25
+Width=49
+MaxLength=4
+Numerical=False
+[ParentWindowData]
+ParentWindowTitle=Create Sales Documents
+Snapshot=snapshot1016
+NoHighlightSnapshot=snapshot1015

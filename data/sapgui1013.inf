@@ -1,0 +1,12 @@
+[ObjectProperties]
+type_as_string=GuiOkCodeField
+component_name=okcd
+Text=
+Top=59
+Left=24
+Height=24
+Width=156
+[ParentWindowData]
+ParentWindowTitle=SAP Easy Access
+Snapshot=snapshot1011
+NoHighlightSnapshot=snapshot1010

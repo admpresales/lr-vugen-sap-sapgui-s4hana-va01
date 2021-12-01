@@ -1,0 +1,6 @@
+[MAIN]
+FileName1=snapshot11.xml
+id=ses[0]/wnd[0]/usr/subSUBSCREEN_HEADER:SAPMV45A:4021/ctxtVBKD-BSTDK
+ImageFileName1=snapshot11.png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen

@@ -1,0 +1,6 @@
+[MAIN]
+FileName1=snapshot6.xml
+id=ses[0]/wnd[0]/usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG
+ImageFileName1=snapshot6.png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen

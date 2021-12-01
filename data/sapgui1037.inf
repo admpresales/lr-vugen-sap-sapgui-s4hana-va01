@@ -1,0 +1,22 @@
+[ObjectProperties]
+type_as_string=GuiTextField
+component_name=VBAP-POSNR
+Text=10
+Tooltip=
+Top=65
+Left=28
+Height=24
+Width=65
+MaxLength=6
+Numerical=True
+ControlInsideTable=YES
+TableID=usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG
+TableColumnTitle=Item
+TableTitleIsUnique=1
+TableCellDescription=(0, 'Item')
+TableColumnNum=0
+TableRowNum=0
+[ParentWindowData]
+ParentWindowTitle=Create Standard Order: Overview
+Snapshot=snapshot1036
+NoHighlightSnapshot=snapshot1035

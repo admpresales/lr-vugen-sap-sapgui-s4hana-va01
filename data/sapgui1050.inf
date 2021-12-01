@@ -1,0 +1,13 @@
+[ObjectProperties]
+type_as_string=GuiButton
+component_name=btn[15]
+Text=Exit
+Tooltip=Exit   (Shift+F3)
+Top=11
+Left=678
+Height=26
+Width=32
+[ParentWindowData]
+ParentWindowTitle=Create Standard Order: Overview
+Snapshot=snapshot1049
+NoHighlightSnapshot=snapshot1047

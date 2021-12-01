@@ -1,0 +1,15 @@
+[ObjectProperties]
+type_as_string=GuiMainWindow
+component_name=wnd[0]
+Text=Create Standard Order: Overview
+Tooltip=
+Top=22
+Left=36
+Height=550
+Width=750
+WorkPaneWidth=88
+WorkPaneHeight=18
+[ParentWindowData]
+ParentWindowTitle=Create Standard Order: Overview
+Snapshot=snapshot1045
+NoHighlightSnapshot=snapshot1044

@@ -1,0 +1,5 @@
+[/app/con0/ses0]
+SessionLogonState=4
+[Sessions]
+OpenSessionsIDs=/app/con[0]/ses[0]
+NextSessionUniqueNum=1

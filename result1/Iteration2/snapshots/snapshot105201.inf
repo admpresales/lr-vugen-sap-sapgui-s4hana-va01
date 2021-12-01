@@ -1,0 +1,6 @@
+[MAIN]
+FileName1=snapshot16.xml
+id=ses[0]/wnd[0]/tbar[0]/btn[15]
+ImageFileName1=snapshot16.png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen

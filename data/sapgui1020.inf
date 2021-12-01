@@ -1,0 +1,16 @@
+[ObjectProperties]
+type_as_string=GuiCTextField
+component_name=VBAK-SPART
+Text=00
+Tooltip=
+Top=244
+Left=224
+Height=25
+Width=53
+MaxLength=2
+Numerical=False
+LabelText=Division
+[ParentWindowData]
+ParentWindowTitle=Create Sales Documents
+Snapshot=snapshot1019
+NoHighlightSnapshot=snapshot1015

@@ -1,0 +1,13 @@
+[ObjectProperties]
+type_as_string=GuiButton
+component_name=btn[15]
+Text=Exit
+Tooltip=Log Off   (Shift+F3)
+Top=11
+Left=678
+Height=26
+Width=32
+[ParentWindowData]
+ParentWindowTitle=SAP Easy Access
+Snapshot=snapshot1052
+NoHighlightSnapshot=snapshot1051

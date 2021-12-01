@@ -1,0 +1,16 @@
+[ObjectProperties]
+type_as_string=GuiTextField
+component_name=VBKD-BSTKD
+Text=450000019998
+Tooltip=
+Top=99
+Left=170
+Height=25
+Width=229
+MaxLength=35
+Numerical=False
+LabelText=Cust. Reference
+[ParentWindowData]
+ParentWindowTitle=Create Standard Order: Overview
+Snapshot=snapshot1024
+NoHighlightSnapshot=snapshot1023

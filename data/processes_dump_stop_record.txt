@@ -1,0 +1,223 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 104
+Failed to get information of process Id: 324
+Failed to get information of process Id: 420
+Failed to get information of process Id: 524
+Failed to get information of process Id: 532
+Failed to get information of process Id: 588
+Failed to get information of process Id: 668
+Failed to get information of process Id: 688
+Failed to get information of process Id: 820
+Failed to get information of process Id: 844
+Failed to get information of process Id: 868
+Failed to get information of process Id: 876
+Failed to get information of process Id: 964
+Failed to get information of process Id: 1016
+Failed to get information of process Id: 404
+Failed to get information of process Id: 960
+Failed to get information of process Id: 520
+Failed to get information of process Id: 1148
+Failed to get information of process Id: 1164
+Failed to get information of process Id: 1172
+Failed to get information of process Id: 1280
+Failed to get information of process Id: 1392
+Failed to get information of process Id: 1424
+Failed to get information of process Id: 1432
+Failed to get information of process Id: 1448
+Failed to get information of process Id: 1460
+Failed to get information of process Id: 1524
+Failed to get information of process Id: 1568
+Failed to get information of process Id: 1624
+Failed to get information of process Id: 1632
+Failed to get information of process Id: 1640
+PROCESS 0x690       pulsesecureservice.exe
+Failed to get information of process Id: 1660
+Failed to get information of process Id: 1740
+Failed to get information of process Id: 1752
+Failed to get information of process Id: 1776
+Failed to get information of process Id: 1952
+Failed to get information of process Id: 2028
+Failed to get information of process Id: 1104
+Failed to get information of process Id: 2208
+Failed to get information of process Id: 2324
+Failed to get information of process Id: 2356
+Failed to get information of process Id: 2392
+Failed to get information of process Id: 2504
+Failed to get information of process Id: 2724
+Failed to get information of process Id: 2748
+Failed to get information of process Id: 2784
+Failed to get information of process Id: 2792
+Failed to get information of process Id: 2868
+Failed to get information of process Id: 2908
+Failed to get information of process Id: 3024
+Failed to get information of process Id: 3032
+Failed to get information of process Id: 3092
+Failed to get information of process Id: 3148
+Failed to get information of process Id: 3156
+PROCESS 0xc5c       hp.alm.lab.agent.remoteservice.exe
+Failed to get information of process Id: 3172
+Failed to get information of process Id: 3180
+Failed to get information of process Id: 3192
+Failed to get information of process Id: 3208
+Failed to get information of process Id: 3244
+PROCESS 0xcbc       modelinstallservice.exe
+Failed to get information of process Id: 3308
+Failed to get information of process Id: 3384
+PROCESS 0xd50       sglauncher.exe
+Failed to get information of process Id: 3436
+Failed to get information of process Id: 3452
+PROCESS 0xd84       smproxyservice.exe
+Failed to get information of process Id: 3476
+Failed to get information of process Id: 3488
+Failed to get information of process Id: 3516
+Failed to get information of process Id: 3548
+PROCESS 0xde8       hp.uft.helperservice.exe
+Failed to get information of process Id: 3568
+Failed to get information of process Id: 3588
+Failed to get information of process Id: 3600
+Failed to get information of process Id: 3628
+Failed to get information of process Id: 3636
+Failed to get information of process Id: 3648
+Failed to get information of process Id: 3656
+Failed to get information of process Id: 3676
+Failed to get information of process Id: 3916
+PROCESS 0x1008      smsystem.exe
+Failed to get information of process Id: 4200
+Failed to get information of process Id: 4380
+Failed to get information of process Id: 4392
+Failed to get information of process Id: 4472
+Failed to get information of process Id: 4480
+Failed to get information of process Id: 4780
+Failed to get information of process Id: 4864
+Failed to get information of process Id: 5112
+Failed to get information of process Id: 5788
+Failed to get information of process Id: 5976
+Failed to get information of process Id: 5984
+Failed to get information of process Id: 5992
+Failed to get information of process Id: 6000
+Failed to get information of process Id: 6008
+Failed to get information of process Id: 6016
+Failed to get information of process Id: 8112
+PROCESS 0x1afc      pulsesecureservice.exe
+Failed to get information of process Id: 4100
+Failed to get information of process Id: 2676
+Failed to get information of process Id: 5340
+Failed to get information of process Id: 4920
+Failed to get information of process Id: 4012
+Failed to get information of process Id: 4672
+Failed to get information of process Id: 6228
+Failed to get information of process Id: 6320
+Failed to get information of process Id: 6372
+Failed to get information of process Id: 6420
+Failed to get information of process Id: 6564
+Failed to get information of process Id: 7512
+Failed to get information of process Id: 5656
+Failed to get information of process Id: 4884
+Failed to get information of process Id: 7724
+Failed to get information of process Id: 7440
+Failed to get information of process Id: 9080
+Failed to get information of process Id: 9156
+Failed to get information of process Id: 8532
+Failed to get information of process Id: 8536
+Failed to get information of process Id: 8832
+PROCESS 0x37c       hp.alm.lab.agent.ssehosttray.exe
+PROCESS 0x538       pulse.exe
+Failed to get information of process Id: 8472
+PROCESS 0x2134      sprinteragent.exe
+Failed to get information of process Id: 5616
+Failed to get information of process Id: 5588
+Failed to get information of process Id: 9852
+Failed to get information of process Id: 9952
+Failed to get information of process Id: 9960
+Failed to get information of process Id: 10136
+Failed to get information of process Id: 884
+Failed to get information of process Id: 9844
+Failed to get information of process Id: 10056
+Failed to get information of process Id: 1696
+Failed to get information of process Id: 6280
+Failed to get information of process Id: 8272
+Failed to get information of process Id: 3064
+Failed to get information of process Id: 8044
+Failed to get information of process Id: 8716
+Failed to get information of process Id: 10008
+Failed to get information of process Id: 9500
+Failed to get information of process Id: 9760
+PROCESS 0xd74       vugen.exe
+Failed to get information of process Id: 2760
+Failed to get information of process Id: 6456
+Failed to get information of process Id: 5376
+Failed to get information of process Id: 1248
+Failed to get information of process Id: 5216
+PROCESS 0x200c      saplogon.exe
+Failed to get information of process Id: 9924
+PROCESS 0xad4       sapguirecord.exe
+		2021.2.0.692                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\SapGuiRecord.exe
+		10.0.17763.2028 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ntdll.dll
+		10.0.17763.2300 (WinBuild.160101.0800)C:\Windows\System32\KERNEL32.DLL
+		10.0.17763.2300 (WinBuild.160101.0800)C:\Windows\System32\KERNELBASE.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\apphelp.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\USER32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\win32u.dll
+		2021.2.0.692                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\api_trapper.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\thrdutil.dll
+		10.0.17763.1697 (WinBuild.160101.0800)C:\Windows\System32\GDI32.dll
+		10.0.17763.2237 (WinBuild.160101.0800)C:\Windows\System32\gdi32full.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\ADVAPI32.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mosifs32.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\PathResolver.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\msvcp_win.dll
+		7.0.17763.475 (WinBuild.160101.0800)C:\Windows\System32\msvcrt.dll
+		10.0.17763.1490 (WinBuild.160101.0800)C:\Windows\System32\ucrtbase.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\sechost.dll
+		10.0.17763.2145 (WinBuild.160101.0800)C:\Windows\System32\SHELL32.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\runtime_code_injection_lib.dll
+		10.0.17763.2213 (WinBuild.160101.0800)C:\Windows\System32\ole32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\RPCRT4.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\cfgmgr32.dll
+		10.0.17763.2145 (WinBuild.160101.0800)C:\Windows\System32\combase.dll
+		10.0.17763.1490 (WinBuild.160101.0800)C:\Windows\System32\SspiCli.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\CRYPTBASE.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\VERSION.dll
+		10.0.17763.2300 (WinBuild.160101.0800)C:\Windows\System32\bcryptPrimitives.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\shcore.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\windows.storage.dll
+		10.0.17763.1935 (WinBuild.160101.0800)C:\Windows\System32\OLEAUT32.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\wrapicu.dll
+		10.0.17763.1075 (WinBuild.160101.0800)C:\Windows\System32\profapi.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\USERENV.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\powrprof.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\shlwapi.dll
+		14.30.30704.0 built by: vcwrkspcC:\Windows\SYSTEM32\MSVCP140.dll
+		14.30.30704.0 built by: vcwrkspcC:\Windows\SYSTEM32\VCRUNTIME140.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\kernel.appcore.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\cryptsp.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icuuc69.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\IPHLPAPI.DLL
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icudt69.dll
+		10.0.17763.719 (WinBuild.160101.0800)C:\Windows\System32\IMM32.DLL
+		21.0.0.11532                  C:\Windows\SYSTEM32\qaphooks.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\bbhook.dll
+		2001.12.10941.16384 (WinBuild.160101.0800)C:\Windows\System32\clbcatq.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\sxs.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\ntmarta.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\system32\uxtheme.dll
+		2                             c:\program files (x86)\micro focus\uft one\bin\eventshook.dll
+		2                             c:\program files (x86)\micro focus\uft one\bin\MicPackVariant.dll
+		7.2.17763.1697 (WinBuild.160101.0800)C:\Windows\SYSTEM32\OLEACC.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\system32\dwmapi.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\CRYPT32.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\MSASN1.dll
+		2021.2.0.692                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\SapGuiActiveScreen.dll
+		2021.2.0.140                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\ActiveScreen.dll
+		14.2.3792.0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\zlibU.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\XmlParserInterface.dll
+		2021.2.0.503                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\mic_regex.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Xalan-C_1_12.dll
+		                              C:\Program Files (x86)\Micro Focus\LoadRunner\bin\xerces-c_3_2.dll
+		1, 12, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\XalanMessages_1_12.dll
+		69, 1, 0, 0                   C:\Program Files (x86)\Micro Focus\LoadRunner\bin\icuin69.dll
+		2021.2.0.692                  C:\Program Files (x86)\Micro Focus\LoadRunner\bin\type_info_pool.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\SYSTEM32\atlthunk.dll
+		10.0.17763.1 (WinBuild.160101.0800)C:\Windows\System32\MSCTF.dll
+		10.0.17763.1821               C:\Windows\System32\CoreMessaging.dll

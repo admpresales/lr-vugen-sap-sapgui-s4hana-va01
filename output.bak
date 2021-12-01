@@ -1,0 +1,156 @@
+Virtual User Script started at: 12/1/2021 5:59:29 PM
+Starting action vuser_init.
+vuser_init.c(12): Notify: Transaction "001_SAP_Logon" started.
+Notify: SapGui Original History Value is -1
+Notify: Opened new connection to server "S/4HANA 2020 FPS01"
+vuser_init.c(14): Opened new connection to server "S/4HANA 2020 FPS01"
+vuser_init.c(18): Selected active connection "con[0]"
+vuser_init.c(20): Selected active session "ses[0]"
+vuser_init.c(22): Selected active window "wnd[0]"
+vuser_init.c(24): Resized window to 18x89
+vuser_init.c(32): Logged on as "S4H_SD_DEM"
+vuser_init.c(40): Notify: Transaction "001_SAP_Logon" ended with a "Pass" status (Duration: 8.2018).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Notify: Transaction "002_Nav_to_va01" started.
+Notify: Found SapGui component by ID "tbar[0]/okcd"
+Action.c(6): Set OKCode "/nva01"
+Action.c(11): Sent virtual key "0"
+Action.c(16): Notify: Transaction "002_Nav_to_va01" ended with a "Pass" status (Duration: 1.4316).
+Action.c(20): Notify: Transaction "003_va01_screen_1" started.
+Notify: Found SapGui component by ID "usr/ctxtVBAK-AUART"
+Action.c(22): Set text of "VBAK-AUART" to "OR"
+Notify: Found SapGui component by ID "usr/ctxtVBAK-VTWEG"
+Action.c(29): Set text of "Distribution Channel" to "10"
+Notify: Found SapGui component by ID "usr/ctxtVBAK-SPART"
+Action.c(36): Set text of "Division" to "00"
+Notify: Found SapGui component by ID "usr/ctxtVBAK-SPART"
+Action.c(43): Set focus on "usr/ctxtVBAK-SPART"
+Action.c(48): Sent virtual key "0"
+Action.c(53): Notify: Transaction "003_va01_screen_1" ended with a "Pass" status (Duration: 1.4310).
+Action.c(57): Notify: Transaction "004_va01_create_order" started.
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/txtVBKD-BSTKD"
+Action.c(59): Set text of "Cust. Reference" to "450000019998"
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/subPART-SUB:SAPMV45A:4701/ctxtKUAGV-KUNNR"
+Action.c(66): Set text of "Sold-To Party" to "EWM17-CU02"
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/subPART-SUB:SAPMV45A:4701/ctxtKUWEV-KUNNR"
+Action.c(73): Set text of "Ship-To Party" to "EWM17-CU02"
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/ctxtVBKD-BSTDK"
+Action.c(80): Set focus on "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/ctxtVBKD-BSTDK"
+Action.c(85): Sent virtual key "4"
+Action.c(90): Selected active window "wnd[1]"
+Notify: Found SapGui component by ID "usr/cntlCONTAINER/shellcont/shell"
+Action.c(92): Calendar - Set focus on date "12/1/2021"
+Notify: Found SapGui component by ID "usr/cntlCONTAINER/shellcont/shell"
+Action.c(99): Calendar - Selected interval "12/1/2021-12/1/2021"
+Action.c(106): Selected active window "wnd[0]"
+Notify: Found SapGui component by ID "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG"
+Action.c(108): Table - filled with data from Table parameter "{data}"
+Notify: Found SapGui component by ID "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG"
+Notify: Found SapGui component by ID "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG"
+Notify: Table - Found SapGui component at position (0, 4)
+Action.c(115): Table - Set focus on "(0, 'Un')"
+Action.c(124): Sent virtual key "0"
+Action.c(129): StatusBar Text is : "Standard Order 4104 has been saved.".
+Notify: Found SapGui component by ID "sbar"
+Notify: The value of parameter 1 in the status bar is "Standard Order"
+Notify: The value of parameter 2 in the status bar is "4104"
+Notify: Found SapGui component by ID "sbar"
+Notify: The type of the status bar is "Success"
+Action.c(129): Sent virtual key "11"
+Notify: Found SapGui component by ID "sbar"
+Action.c(134): The text of the status bar is "Standard Order 4104 has been saved."
+Action.c(134): Notify: Saving Parameter "paramStatusBarText = Standard Order 4104 has been saved.".
+Notify: The value of parameter "paramStatusBarText" was set to "Standard Order 4104 has been saved."
+Notify: Found SapGui component by ID "sbar"
+Notify: The value of parameter 1 in the status bar is "Standard Order"
+Notify: The value of parameter 2 in the status bar is "4104"
+Notify: Found SapGui component by ID "sbar"
+Notify: The type of the status bar is "Success"
+Action.c(140): Notify: Transaction "004_va01_create_order" ended with a "Pass" status (Duration: 6.5302).
+Action.c(146): Notify: Transaction "005_va01_exit_tcode" started.
+Notify: Found SapGui component by ID "tbar[0]/btn[15]"
+Action.c(148): Pressed button "Exit"
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Notify: Next row for parameter data = 1 [table  = data].
+Notify: Getting new value for parameter 'data': table = 'data.dat' column = '0' row = '1'.
+Starting action Action.
+Action.c(4): Notify: Transaction "002_Nav_to_va01" started.
+Notify: Found SapGui component by ID "tbar[0]/okcd"
+Action.c(6): Set OKCode "/nva01"
+Action.c(11): Sent virtual key "0"
+Action.c(16): Notify: Transaction "002_Nav_to_va01" ended with a "Pass" status (Duration: 1.1960).
+Action.c(20): Notify: Transaction "003_va01_screen_1" started.
+Notify: Found SapGui component by ID "usr/ctxtVBAK-AUART"
+Action.c(22): Set text of "VBAK-AUART" to "OR"
+Notify: Found SapGui component by ID "usr/ctxtVBAK-VTWEG"
+Action.c(29): Set text of "Distribution Channel" to "10"
+Notify: Found SapGui component by ID "usr/ctxtVBAK-SPART"
+Action.c(36): Set text of "Division" to "00"
+Notify: Found SapGui component by ID "usr/ctxtVBAK-SPART"
+Action.c(43): Set focus on "usr/ctxtVBAK-SPART"
+Action.c(48): Sent virtual key "0"
+Action.c(53): Notify: Transaction "003_va01_screen_1" ended with a "Pass" status (Duration: 1.4788).
+Action.c(57): Notify: Transaction "004_va01_create_order" started.
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/txtVBKD-BSTKD"
+Action.c(59): Set text of "Cust. Reference" to "450000019998"
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/subPART-SUB:SAPMV45A:4701/ctxtKUAGV-KUNNR"
+Action.c(66): Set text of "Sold-To Party" to "EWM17-CU02"
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/subPART-SUB:SAPMV45A:4701/ctxtKUWEV-KUNNR"
+Action.c(73): Set text of "Ship-To Party" to "EWM17-CU02"
+Notify: Found SapGui component by ID "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/ctxtVBKD-BSTDK"
+Action.c(80): Set focus on "usr/subSUBSCREEN_HEADER:SAPMV45A:4021/ctxtVBKD-BSTDK"
+Action.c(85): Sent virtual key "4"
+Action.c(90): Selected active window "wnd[1]"
+Notify: Found SapGui component by ID "usr/cntlCONTAINER/shellcont/shell"
+Action.c(92): Calendar - Set focus on date "12/1/2021"
+Notify: Found SapGui component by ID "usr/cntlCONTAINER/shellcont/shell"
+Action.c(99): Calendar - Selected interval "12/1/2021-12/1/2021"
+Action.c(106): Selected active window "wnd[0]"
+Notify: Found SapGui component by ID "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG"
+Action.c(108): Table - filled with data from Table parameter "{data}"
+Notify: Found SapGui component by ID "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG"
+Notify: Found SapGui component by ID "usr/tabsTAXI_TABSTRIP_OVERVIEW/tabpT\01/ssubSUBSCREEN_BODY:SAPMV45A:4400/subSUBSCREEN_TC:SAPMV45A:4900/tblSAPMV45ATCTRL_U_ERF_AUFTRAG"
+Notify: Table - Found SapGui component at position (0, 4)
+Action.c(115): Table - Set focus on "(0, 'Un')"
+Action.c(124): Sent virtual key "0"
+Action.c(129): StatusBar Text is : "Standard Order 4105 has been saved.".
+Notify: Found SapGui component by ID "sbar"
+Notify: The value of parameter 1 in the status bar is "Standard Order"
+Notify: The value of parameter 2 in the status bar is "4105"
+Notify: Found SapGui component by ID "sbar"
+Notify: The type of the status bar is "Success"
+Action.c(129): Sent virtual key "11"
+Notify: Found SapGui component by ID "sbar"
+Action.c(134): The text of the status bar is "Standard Order 4105 has been saved."
+Action.c(134): Notify: Saving Parameter "paramStatusBarText = Standard Order 4105 has been saved.".
+Notify: The value of parameter "paramStatusBarText" was set to "Standard Order 4105 has been saved."
+Notify: Found SapGui component by ID "sbar"
+Notify: The value of parameter 1 in the status bar is "Standard Order"
+Notify: The value of parameter 2 in the status bar is "4105"
+Notify: Found SapGui component by ID "sbar"
+Notify: The type of the status bar is "Success"
+Action.c(140): Notify: Transaction "004_va01_create_order" ended with a "Pass" status (Duration: 6.2288).
+Action.c(146): Error: Cannot start transaction "005_va01_exit_tcode". This Vuser already started a transaction with the same name, and has not yet processed the corresponding lr_end_transaction statement.
+Notify: Found SapGui component by ID "tbar[0]/btn[15]"
+Action.c(148): Pressed button "Exit"
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(4): Notify: Transaction "006_Logoff" started.
+Notify: Found SapGui component by ID "tbar[0]/btn[15]"
+vuser_end.c(6): Pressed button "Exit"
+vuser_end.c(12): Selected active window "wnd[1]"
+Notify: Found SapGui component by ID "usr/btnSPOP-OPTION1"
+vuser_end.c(14): Pressed button "Yes"
+vuser_end.c(20): Notify: Transaction "006_Logoff" ended with a "Pass" status (Duration: 0.5847).
+Error: Vuser started transaction "005_va01_exit_tcode", but did not reach a corresponding end transaction statement. The transaction ended automatically with status 'fail'.
+Notify: Transaction "005_va01_exit_tcode" ended with a "Fail" status (Duration: 10.6096).
+Notify: Transaction "005_va01_exit_tcode" has 0 error message(s).
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,16 @@
+[ObjectProperties]
+type_as_string=GuiCTextField
+component_name=VBKD-BSTDK
+Text=
+Tooltip=
+Top=99
+Left=560
+Height=25
+Width=133
+MaxLength=10
+Numerical=True
+LabelText=Cust. Ref. Date
+[ParentWindowData]
+ParentWindowTitle=Create Standard Order: Overview
+Snapshot=snapshot1027
+NoHighlightSnapshot=snapshot1023

@@ -1,0 +1,6 @@
+[MAIN]
+FileName1=snapshot105.xml
+id=ses[0]/wnd[1]/usr/cntlCONTAINER/shellcont/shell
+ImageFileName1=snapshot105.png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen

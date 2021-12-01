@@ -1,0 +1,6 @@
+[MAIN]
+FileName1=snapshot108.xml
+id=ses[0]/wnd[0]/sbar
+ImageFileName1=snapshot108.png
+[Viewer]
+PROGID=ViewerGen.SSViewerGen

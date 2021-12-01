@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\demo\Documents\Scripts\lr-vugen-sap-sapgui-s4hana-va01
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\demo\documents\scripts\lr-vugen-sap-sapgui-s4hana-va01\\logfile.log
+c:\users\demo\documents\scripts\lr-vugen-sap-sapgui-s4hana-va01\\combined_s4hana-va01-create-sales-order.c
+c:\users\demo\documents\scripts\lr-vugen-sap-sapgui-s4hana-va01\\pre_cci.c

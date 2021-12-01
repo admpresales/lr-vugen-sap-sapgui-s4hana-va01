@@ -1,0 +1,16 @@
+[ObjectProperties]
+type_as_string=GuiCTextField
+component_name=VBAK-VTWEG
+Text=10
+Tooltip=
+Top=212
+Left=224
+Height=25
+Width=29
+MaxLength=2
+Numerical=False
+LabelText=Distribution Channel
+[ParentWindowData]
+ParentWindowTitle=Create Sales Documents
+Snapshot=snapshot1017
+NoHighlightSnapshot=snapshot1015
